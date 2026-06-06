@@ -1,26 +1,22 @@
 #include<stdio.h>
 int main ()
 {
-    int a[5]={10,20,30,40,50};
-    int i,key;
-     printf("enter the element to search");
-     scanf("%d",& key);
-
-     for(i=0;i<5;i++)
-     {
-        if(a[i]==key)
+    int a[5],i,max=0;
+    printf("enter the elemnts of the array");
+    for(i=0;i<5;i++)
+    {
+        scanf("%d",& a[i]);
+    }
+        max=a[0];
+    for(i=0;i<5;i++)
+    {
+        if(a[i]>max)
         {
-            printf("element found is %d,i+1");
-            break;
-        
-     }
-    
-   
-    else 
-      printf("element not found")
-    
-}
-    
-    return 0;
-}
+            max=a[i];
+        }
+        printf("the greatest element is =%d",max);
 
+    }
+    return 0;
+}  
+ 

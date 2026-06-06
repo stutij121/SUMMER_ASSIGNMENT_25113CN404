@@ -4,7 +4,7 @@ int main()
 {
     int binary,decimal=0,rem=0,i=0;
     printf("enter a binary number");
-    scanf("%d", & binary);.
+    scanf("%d", & binary);
     while(binary>0)
     {
     rem = binary%10;

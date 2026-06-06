@@ -13,6 +13,6 @@ int main(){
     printf("the simple interest is:%f\n",SI);
     A=p*pow((1+r/100.0),t);
     CI=A-p;
-    printf("coumpounf interest is:%f",CI);
+    printf("coumpound interest is:%f",CI);
     return 0;
 }
