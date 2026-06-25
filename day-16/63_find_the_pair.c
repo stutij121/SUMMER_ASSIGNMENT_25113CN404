@@ -28,5 +28,6 @@ int main ()
     {
         printf("no pair found");
     }
+    return 0;
 
     }
