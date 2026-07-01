@@ -30,8 +30,7 @@ int main()
             start = i + 1; // next word starts after space
         }
 
-        if(str[i] == '\0')
-            break;
+        
     }
 
     printf("Longest word = ");
